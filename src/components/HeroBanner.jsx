@@ -5,9 +5,9 @@ const HeroBanner = () => {
     let navigate = useNavigate();
     return (
         <div className="hero-banner">
-             <div className="image-container">
-                <img src="./images/nft1.png" alt="toolbox"/>
-            </div> 
+//              <div className="image-container">
+//                 <img src="./images/nft1.png" alt="toolbox"/>
+//             </div> 
             <div className="text-container">
                 <p className="heading"> Tools to Personalize NFT users Discovery in Cross-Chain Marketplace</p>
                 <div className="login-container">
