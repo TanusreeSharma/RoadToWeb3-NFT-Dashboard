@@ -37,7 +37,7 @@ const Search = () => {
                             <option value="user_account">User Account</option>
                         </select>
                     </div>
-                    <p className="search-btn"><a href="https://opensea.io/MutantApeYachtClub?tab=created">Search</a></p>
+                    <p className="search-btn">Search</p>
                    
                 </div>
             </div>
