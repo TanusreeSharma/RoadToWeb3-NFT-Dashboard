@@ -1,3 +1,4 @@
+// cite/ reference: https://github.com/ethereum-boilerplate/ethereum-nft-marketplace-boilerplate
 import React, { useEffect, useState } from "react";
 import { useMoralis } from "react-moralis";
 import MoralisDappContext from "./context";
@@ -6,8 +7,8 @@ function MoralisDappProvider({ children }) {
   const { web3, Moralis, user } = useMoralis();
   const [walletAddress, setWalletAddress] = useState();
   const [chainId, setChainId] = useState();       
-  const [contractABI, setContractABI] = useState('{"noContractDeployed": true}'); //Smart Contract ABI here
-  const [marketAddress, setMarketAddress] = useState(); //Smart Contract Address Here
+  const [contractABI, setContractABI] = useState('{".......": true}')
+  const [marketAddress, setMarketAddress] = useState(); 
 
 
   useEffect(() => {
@@ -18,10 +19,10 @@ function MoralisDappProvider({ children }) {
     Moralis.onAccountsChanged(function (address) {
       setWalletAddress(address[0]);
     });
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+
   }, []);
 
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+
   useEffect(() => setChainId(web3.givenProvider?.chainId));
   useEffect(
     () => setWalletAddress(web3.givenProvider?.selectedAddress || user?.get("ethAddress")),
