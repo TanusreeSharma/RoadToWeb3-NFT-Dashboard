@@ -1,7 +1,8 @@
+//reference: Moralis boilerplate
+
 import { Select } from 'antd';
 import { useMoralisDapp } from "providers/MoralisDappProvider/MoralisDappProvider";
-//reference: Moralis boilerplate
-import { getCollectionsByChain } from "helpers/collections";
+
 
 
 function SearchCollections({setInputValue}){
