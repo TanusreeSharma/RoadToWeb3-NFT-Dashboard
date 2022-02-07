@@ -17,6 +17,7 @@ Use of tools and Resources---
 Reference code---
 1. https://github.com/ethereum-boilerplate/ethereum-boilerplate
 2. https://github.com/ethereum-boilerplate/ethereum-nft-marketplace-boilerplate
+3. providers/MoralisDappProvider --- code used from https://github.com/ethereum-boilerplate/ethereum-nft-marketplace-boilerplate
 
 
 The motivation of this work is a part of our research project where we interviewed NFT users to learn their current practices and challenges. We tried to articulate their challenges into design implication.
